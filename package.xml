@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magmodules_Ekomisnippets</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.magmodules.eu/license-agreement/">Single Server License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add Ekomi rich snippets to Magento Homepage</summary>
+    <description>Add Ekomi rich snippets to Magento Homepage</description>
+    <notes>Ekomi Snippets</notes>
+    <authors><author><name>Magmodules</name><user>magmodules</user><email>info@magmodules.nl</email></author></authors>
+    <date>2013-07-18</date>
+    <time>09:56:13</time>
+    <contents><target name="magelocal"><dir name="Magmodules"><dir name="Ekomisnippets"><dir name="Block"><file name="Snippets.php" hash="2ca4e5acc0b4cd11eb22710822da677d"/></dir><dir name="Helper"><file name="Data.php" hash="9a84194b5797b9b32596ba5d7d0c3d19"/></dir><dir name="etc"><file name="adminhtml.xml" hash="e17b618677f4f1afa9833affd23cd11a"/><file name="config.xml" hash="2e54cd5634d2c8a698296d1007dbd47a"/><file name="system.xml" hash="a22dc55f0cf235ae577175545478db74"/></dir></dir><dir name="Core"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="Heading.php" hash="225f6b0c38c0416999bca84ed585f8a0"/></dir></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="00d42a8d48f8990f6df2baf5e35227cc"/><file name="system.xml" hash="a6af45002ccaf73cca5bdff49704d100"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="magmodules_ekomisnippets.xml" hash="ae6f75bb712023b93b2549879c577a94"/></dir><dir name="template"><dir name="magmodules"><dir name="ekomisnippets"><file name="block.phtml" hash="d91cea649e416604ccecd363db5e0bf6"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="magmodules"><file name="comments.png" hash="f187231e161acd185dbb918c8d9b7b6d"/><file name="logo-small.png" hash="b7f5334665d500cd6068a0ce55cd6d74"/></dir></dir><file name="magmodules.css" hash="7cd6b3eca521f94eba537d89e772fc9c"/></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="magmodules"><file name="ekomisnippets.css" hash="88760e43d5d33696025759ba49f43bb5"/></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Magmodules_Ekomisnippets.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir><dir name="it_IT"><file name="Magmodules_Ekomisnippets.csv" hash="edcb455cc33427722626fe8e5d786248"/></dir><dir name="nl_NL"><file name="Magmodules_Ekomisnippets.csv" hash="e98bea3206e6f2d200da950bea9e7972"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magmodules_Ekomisnippets.xml" hash="d54b6a04b8cf9490ff29bbc95ee40e54"/><file name="Magmodules_Core.xml" hash="2697672510696f9cc390b995103c89c7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name></name><channel>connect.magentocommerce.com/core</channel><min></min><max></max></package><extension><name>Core</name><min></min><max></max></extension></required></dependencies>
+</package>
