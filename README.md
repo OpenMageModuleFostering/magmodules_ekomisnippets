@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Add Ekomi rich snippets to Magento Homepage
